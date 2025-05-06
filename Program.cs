@@ -23,8 +23,26 @@
 
 
             //Neo
-            Console.WriteLine("This is a line of code that will print a things oh yes it is");
-            Console.ReadLine();
+            string temp;
+            int high, low;
+            high = 100;
+            low = 0;
+
+            Console.Write("Enter a number: ");
+            temp = Console.ReadLine();
+            low = Convert.ToInt32(temp);
+            Console.Write("Enter a second number, higher than the first: ");
+            temp = Console.ReadLine();
+            high = Convert.ToInt32(temp);
+            for (int i = 0; i <= high; i++)
+            {
+                for (int j = low; j <= i; j++)
+                {
+                    Console.Write(j + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine() ;
         }
     }
 }
