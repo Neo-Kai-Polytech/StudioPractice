@@ -28,7 +28,9 @@ namespace Studio_1_test
             //Outro
             Console.WriteLine("All sheep have been counted :D");
             Console.ReadLine();
+            Console.Clear();
 
+            //-----------------------------------------------------------
 
             //Cat//
             int bike = 0;
