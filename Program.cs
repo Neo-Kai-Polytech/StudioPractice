@@ -12,7 +12,8 @@ namespace Studio_1_test
 
 
             //Cat//
-
+            Console.WriteLine("Hewo me cat, I go Mrrroooow");
+            Thread.Sleep(1000);
 
 
 
