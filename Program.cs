@@ -18,7 +18,8 @@
 
 
             //Alina
-
+            Console.WriteLine("Hi, my name is Alina!")
+            Console.WriteLine("I'm 21 years old.");
 
 
 
