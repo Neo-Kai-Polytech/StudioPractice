@@ -23,6 +23,8 @@
 
 
             //Neo
+            Console.WriteLine("This is a line of code that will print a things oh yes it is");
+            Console.ReadLine();
         }
     }
 }
