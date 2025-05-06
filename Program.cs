@@ -31,21 +31,42 @@ namespace Studio_1_test
 
 
             //Cat//
-            Console.WriteLine("Hewo me cat, I go Mrrroooow");
-            Thread.Sleep(1000);
+            int bike = 0;
+            Console.WriteLine("Hewo me Cat, I go Mrrroooow");
+            for (int i = 0; i < 11; i++)
+            {
+                bike++;
+                if (bike == 1)
+                {
+                    Console.WriteLine($"You own {bike} motorbike, that's a bit drab.");
+                }
+                else
+                {
+                    Console.WriteLine($"You own {bike} motorbikes! That's better! More fun huh?");
+                }
+                Thread.Sleep(500);
+            }
 
 
 
 
             //Alina
-            Console.WriteLine("Hi, my name is Alina!")
+            Console.WriteLine("Hi, my name is Alina!");
             Console.WriteLine("I'm 21 years old.");
+            int banana = 0;
+            for (int i = 0; i < 10; i++) {
+                banana++;  
+                Console.WriteLine("Iteration " + i + " : " banana + " bananas");
+            }
+
+            Console.WriteLine("Total: " + banana + " bananas");
+
 
 
 
             //Neo
             Console.WriteLine("This is a line of code that will print a things oh yes it is");
             Console.ReadLine();
-        }
+        
     }
 }
