@@ -21,11 +21,23 @@ namespace Studio_1_test
                 {
                     Console.WriteLine($"You own {bike} motorbike, that's a bit drab.");
                 }
-                else
+                else if(bike == 2)
                 {
                     Console.WriteLine($"You own {bike} motorbikes! That's better! More fun huh?");
                 }
-                Thread.Sleep(500);
+                else if (bike == 3)
+                {
+                    Console.WriteLine($"You own {bike} motorbikes! Woah slow down!");
+                }
+                else if (bike == 4)
+                {
+                    Console.WriteLine($"You own {bike} motorbikes! Ok I give up!");
+                }
+                else
+                {
+                    Console.WriteLine($"You own {bike} motorbikes.....");
+                }
+                Thread.Sleep(300);
             }
 
 
@@ -35,9 +47,10 @@ namespace Studio_1_test
             Console.WriteLine("Hi, my name is Alina!");
             Console.WriteLine("I'm 21 years old.");
             int banana = 0;
-            for (int i = 0; i < 10; i++) {
-                banana++;  
-                Console.WriteLine("Iteration " + i + " : " banana + " bananas");
+            for (int i = 0; i < 10; i++)
+            {
+                banana++;
+                Console.WriteLine("Iteration " + i + " : " + banana + " bananas");
             }
 
             Console.WriteLine("Total: " + banana + " bananas");
@@ -48,6 +61,7 @@ namespace Studio_1_test
             //Neo
             Console.WriteLine("This is a line of code that will print a things oh yes it is");
             Console.ReadLine();
+        }
         
     }
 }
